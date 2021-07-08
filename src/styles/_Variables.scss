@@ -1,0 +1,56 @@
+// -------------------- COLORS ----------------
+//These are the mains color for the webpage. They should be the only colors used.
+
+// Black
+$color-strong: #242424;
+// Grey
+$color-medium: #424242;
+// White soft
+$color-soft: #FFFDF8;
+// White
+$color-white: #FFFFFF;
+// Blue
+$color-primary: #5EAAA8;
+// Orange
+$color-second: #F05945;
+// Blue ligth
+$color-complement: #A3D2CA;
+
+
+// ---------------- FONTS -------------------
+
+//Roboto (Regular, Italic, Bold, Thin)
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+//Inconsolata (extra light, italic, regular, bold...)
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+// Family
+$font-main: 'Roboto', sans-serif;
+$font-second: 'Inconsolata', monospace;
+// sizes
+$size-small: 0.85rem;
+$size-medium: 1rem;
+$size-large: 1.3rem;
+$size-xlarge: 1.5rem;
+$size-xxlarge: 2rem;
+
+// Weigth
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+$font-black: 900;
+
+
+// -------------- BORDERS AND SHADOWS -------------
+
+// Borders
+
+$border-l: 3.125rem;
+$border-m: 1.25rem;
+$border-s: 1rem;
+
+// Shadows
+
+$shadow-btn: 0px 4px 4px rgba(0, 0, 0, 0.25);
