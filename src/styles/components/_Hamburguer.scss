@@ -1,0 +1,50 @@
+@import './../Variables';
+
+.menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    width: 3rem;
+    height: 3rem;
+
+    background-color: $color-strong;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu-btn__burguer {
+    width: 2rem;
+    height: 0.187rem;
+    background-color: $color-soft;
+    border-radius: $border-s;
+    transition: all 0.5s ease-in-out;
+}
+.menu-btn__burguer::before, .menu-btn__burguer::after {
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 0.187rem;
+    background-color: $color-soft;
+    border-radius: $border-m;
+    transition: all 0.5s ease-in-out;
+}
+.menu-btn__burguer::before {
+    transform: translateY(-0.6rem);
+}
+.menu-btn__burguer::after {
+    transform: translateY(0.6rem);
+}
+
+//Animation
+.menu-btn.open .menu-btn__burguer {
+    transform: translateX(-3rem);
+    background-color: transparent;
+}
+.menu-btn.open .menu-btn__burguer::before {
+    transform: rotate(45deg) translate(2.18rem, -2.18rem);
+}
+.menu-btn.open .menu-btn__burguer::after {
+    transform: rotate(-45deg) translate(2.18rem, 2.18rem);
+}
