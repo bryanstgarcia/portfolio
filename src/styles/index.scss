@@ -1,3 +1,23 @@
-/* 
-    General Styles
-*/
+@import './Variables';
+@import './components/Hamburguer';
+@import './views/Home';
+@import './components/Navbar';
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $color-soft;
+    font-family: $font-main;
+}
+.letter-primary {
+    color: $color-primary;
+}
+.letter-strong {
+    color: $color-strong;
+}
+.letter-soft {
+    color: $color-soft;
+}
