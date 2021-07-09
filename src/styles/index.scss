@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 body {
+    min-width: 290px;
     background-color: $color-soft;
     font-family: $font-main;
 }
