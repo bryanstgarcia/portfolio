@@ -34,7 +34,9 @@ module.exports = {
             options: { name: '[name].[ext]' }
           }
         }, //for images
-        { test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/, use: ['file-loader'] } //for fonts
+        { 
+          test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/, use: ['file-loader'] 
+        } //for fonts
     ]
   },
   resolve: {
