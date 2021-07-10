@@ -1,16 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { Context } from "../store/appContext";
 
 export const Hamburguer = () => {
-	const [menuOpen, setMenuOpen] = useState(false);
+	const { store, actions } = useContext(Context);
+
 	return (
 		<div
-			className={menuOpen ? `menu-btn open` : `menu-btn`}
+			className={store.hamburguer ? `menu-btn open` : `menu-btn`}
 			onClick={event => {
-				if (menuOpen) {
-					setMenuOpen(false);
-				} else {
-					setMenuOpen(true);
-				}
+				actions.handleHamburguer();
 			}}>
 			<div className={`menu-btn__burguer`} />
 		</div>
