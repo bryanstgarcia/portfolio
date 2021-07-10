@@ -2,14 +2,13 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
-import { Home } from "./views/Home.jsx";
-import { Demo } from "./views/demo";
+import { SinglePageContainer } from "./views/SinglePageContainer.jsx";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 import { Resume } from "./views/Resume.jsx";
 
 import { Navbar } from "./component/Navbar.jsx";
-import { Footer } from "./component/footer";
+import { Footer } from "./component/Footer.jsx";
 
 //create your first component
 const Layout = () => {
@@ -24,7 +23,7 @@ const Layout = () => {
 					<Navbar />
 					<Switch>
 						<Route exact path="/">
-							<Home />
+							<SinglePageContainer />
 						</Route>
 						<Route exact path="/resume">
 							<Resume />
