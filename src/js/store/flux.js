@@ -1,23 +1,22 @@
-const getState = ({ getStore, getActions, setStore }) => {
+const getState = ({ getStore, getActions, setStore, setActions }) => {
 	return {
 		store: {
-			demo: [
-				{
-					title: "FIRST",
-					background: "white",
-					initial: "white"
-				},
-				{
-					title: "SECOND",
-					background: "white",
-					initial: "white"
-				}
-			]
+			hamburguer: false
 		},
 		actions: {
 			// Use getActions to call a function within a fuction
-			exampleFunction: () => {
-				getActions().changeColor(0, "green");
+			handleHamburguer: () => {
+				const store = getStore();
+				const actions = getActions();
+				if (store.hamburguer) {
+					setStore({
+						hamburguer: false
+					});
+				} else {
+					setStore({
+						hamburguer: true
+					});
+				}
 			},
 			loadSomeData: () => {
 				/**
