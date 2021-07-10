@@ -1,7 +1,9 @@
 @import './Variables';
-@import './components/Hamburguer';
 @import './views/Home';
+
+@import './components/Hamburguer';
 @import './components/Navbar';
+@import './components/Footer';
 
 *, *::after, *::before {
     margin: 0;
@@ -12,6 +14,9 @@ body {
     min-width: 290px;
     background-color: $color-soft;
     font-family: $font-main;
+}
+html {
+    scroll-behavior: smooth;
 }
 .letter-primary {
     color: $color-primary;
