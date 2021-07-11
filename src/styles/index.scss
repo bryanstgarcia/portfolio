@@ -1,9 +1,13 @@
 @import './Variables';
-@import './views/Home';
 
-@import './components/Hamburguer';
 @import './components/Navbar';
+@import './components/Hamburguer';
+@import './components/Home';
+@import './components/About';
 @import './components/Footer';
+@import './components/Skills';
+@import './components/FrontendSkills';
+
 
 *, *::after, *::before {
     margin: 0;
