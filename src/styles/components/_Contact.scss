@@ -1,0 +1,75 @@
+@import './../Variables';
+
+.contact {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 75vh;
+    height: auto;
+    background-color: $color-primary;
+}
+
+.contact__title {
+    position: absolute;
+    top: -1.2rem;
+    left: 5vw;
+    h2 {
+        font-weight: $font-bold;
+        font-size: $size-extreme;
+        line-height: 136.19%;
+        text-align: center;
+        color: $color-soft; 
+        letter-spacing: 0.02em;
+        z-index: -10;
+    }
+}
+.contact__linkedin, .contact__mail {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 20rem;
+    background-color: $color-medium;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.contact__linkedin {
+    margin-top: 4rem;
+}
+.contact__linkedin--p, .contact__mail--p {
+    color: $color-soft;
+}
+.contact__linkedin--logo, .contact__mail--btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    background-color: $color-strong;
+    box-shadow: $shadow-btn;
+    
+    &:hover {
+        background-color: $color-primary;
+    }
+    img {
+        width: 3rem;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 570px) {
+    .contact {
+        flex-flow: row nowrap;
+    }
+    .contact__linkedin {
+        margin-top:  2rem;
+    }
+    
+}
