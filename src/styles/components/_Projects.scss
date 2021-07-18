@@ -35,3 +35,11 @@
     width: 100%;
     background-color: $color-soft;
 }
+@media only screen and (min-width: 570px) {
+    .projects__components {
+        width: 100%;
+        padding: 3rem 6rem;
+        flex-flow: row wrap;
+    }
+    
+}
