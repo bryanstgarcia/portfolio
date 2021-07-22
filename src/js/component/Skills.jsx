@@ -2,6 +2,7 @@ import React from "react";
 import { BackendSkills } from "./BackendSkills.jsx";
 import { ComplementarySkills } from "./ComplementarySkills.jsx";
 import { FrontendSkills } from "./FrontendSkills.jsx";
+import { SoftSkills } from "./SoftSkills.jsx";
 
 export const Skills = () => {
 	return (
@@ -16,6 +17,7 @@ export const Skills = () => {
 				<FrontendSkills />
 				<BackendSkills />
 				<ComplementarySkills />
+				<SoftSkills />
 			</div>
 		</div>
 	);
