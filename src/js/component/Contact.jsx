@@ -4,7 +4,7 @@ import Linkedin from "./../../img/linkedin-white-logo.png";
 
 export const Contact = () => {
 	return (
-		<div className="contact">
+		<div className="contact" id="contact">
 			<div className="contact__title">
 				<h2>
 					CONTACTO <span className="letter-strong">.</span>

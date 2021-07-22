@@ -7,7 +7,7 @@ import Arrow from "./../../img/arrow-down.png";
 
 export const Home = () => {
 	return (
-		<div className="welcome">
+		<div className="welcome" id="home">
 			<div className="welcome__img">
 				<div className="welcome__img--box">
 					<img src={Perfil} alt="Imagen de perfil" />

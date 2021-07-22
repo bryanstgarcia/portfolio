@@ -7,7 +7,7 @@ export const Navbar = () => {
 	const { store, actions } = useContext(Context);
 	return (
 		<nav className="navigation">
-			<Link to="/">
+			<Link to="/" href="#home">
 				<span className="navigation__logo">BG</span>
 			</Link>
 
