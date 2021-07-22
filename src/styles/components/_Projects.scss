@@ -35,6 +35,14 @@
     width: 100%;
     background-color: $color-soft;
 }
+@media only screen and (min-width: 300px)  and (max-width: 330px) {
+    .projects__title {
+        top: -0.9rem;
+        h2 {
+            font-size: $size-xxlarge + 0.5rem;
+        }
+    }
+}
 @media only screen and (min-width: 570px) {
     .projects__components {
         width: 100%;
