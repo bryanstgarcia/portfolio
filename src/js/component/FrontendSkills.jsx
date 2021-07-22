@@ -1,53 +1,63 @@
 import React from "react";
-import HTML from "./../../img/html-logo.png";
-import CSS from "./../../img/css-logo.png";
-import SASS from "./../../img/sass-logo.png";
-import BOOTSTRAP from "./../../img/bootstrap-logo.png";
-import REACT_LOGO from "./../../img/react-logo.png";
-import JAVASCRIPT from "./../../img/javascript-logo.png";
 import FLUX from "./../../img/flux-logo.png";
 import WEBPACK from "./../../img/webpack-logo.png";
+import { Html } from "./svg/_Html.jsx";
+import { Css } from "./svg/_Css.jsx";
+import { Sass } from "./svg/_Sass.jsx";
+import { Bootstrap } from "./svg/_Bootstrap.jsx";
+import { JavaScript } from "./svg/_JavaScript.jsx";
+import { ReactLog } from "./svg/_ReactLog.jsx";
 
 export const FrontendSkills = () => {
 	return (
 		<div className="skills-riel">
-			<div className="skills-riel__title">
-				<h3>{`< FRONTEND  / >`}</h3>
+			<div className="skills-riel__title" id="frontend">
+				<h3>{`FRONTEND`}</h3>
 			</div>
-			<div className="riel">
-				<div className="skills-riel__component">
-					<div className="skills-riel__component--img moved" data-title="HTML 5">
-						<img src={HTML} alt="HTML" title="HTML 5" className="component--img" />
-						<h5>HTML 5</h5>
+			<div className="skills-riel__component">
+				<div className="skills-riel__component--img moved" data-title="HTML 5" id="html">
+					<div className="component--img">
+						<Html />
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
-						<img src={CSS} alt="CSS 3" title="CSS 3" className="component--img" />
-						<h5>CSS 3</h5>
+					<h5>HTML 5</h5>
+				</div>
+				<div className="skills-riel__component--img" data-title="CSS 3" id="css">
+					<div className="component--img">
+						<Css />
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
-						<img src={SASS} alt="Sass" title="Sass" className="component--img" />
-						<h5>Sass</h5>
+					<h5>CSS 3</h5>
+				</div>
+				<div className="skills-riel__component--img" data-title="Sass" id="sass">
+					<div className="component--img">
+						<Sass />
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
-						<img src={BOOTSTRAP} alt="Bootstrap" title="Bootstrap" className="component--img" />
-						<h5>Bootstrap</h5>
+					<h5>Sass</h5>
+				</div>
+				<div className="skills-riel__component--img" data-title="Bootstrap" id="bootstrap">
+					<div className="component--img">
+						<Bootstrap />
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
-						<img src={JAVASCRIPT} alt="JavaScript" title="JavaScript" className="component--img" />
-						<h5>JavaScript</h5>
+					<h5>Bootstrap</h5>
+				</div>
+				<div className="skills-riel__component--img" data-title="JavaScript" id="js">
+					<div className="component--img">
+						<JavaScript />
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
-						<img src={REACT_LOGO} alt="React Js" title="React Js" className="component--img" />
-						<h5>React Js</h5>
+					<h5>JavaScript</h5>
+				</div>
+				<div className="skills-riel__component--img" data-title="React Js" id="react">
+					<div className="component--img">
+						<ReactLog />
 					</div>
-					<div className="skills-riel__component--img img-bigger" data-title="HTML 5">
-						<img src={FLUX} alt="Flux" title="Flux" className="component--img" />
-						<h5>Flux</h5>
-					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
-						<img src={WEBPACK} alt="Webpack" title="Webpack" className="component--img" />
-						<h5>Webpack</h5>
-					</div>
+					<h5>React Js</h5>
+				</div>
+				<div className="skills-riel__component--img img-bigger" data-title="Flux" id="flux">
+					<img src={FLUX} alt="Flux" title="Flux" className="component--img" />
+					<h5>Flux</h5>
+				</div>
+				<div className="skills-riel__component--img" data-title="Webpack" id="webpack">
+					<img src={WEBPACK} alt="Webpack" title="Webpack" className="component--img" />
+					<h5>Webpack</h5>
 				</div>
 			</div>
 		</div>
