@@ -67,3 +67,9 @@
 .btn-black {
     background-color: $color-strong;
 }
+@media only screen and (min-width: 300px)  and (max-width: 330px) {
+    .project-container {
+        margin: 1rem 0;
+        border-radius: 0;
+    }
+}
