@@ -45,3 +45,11 @@
 .close__see-more {
     display: none;
 }
+@media only screen and (min-width: 300px)  and (max-width: 330px) {
+    .about__title {
+        top: -0.9rem;
+        h2 {
+            font-size: $size-xxlarge + 0.5rem;
+        }
+    }
+}
