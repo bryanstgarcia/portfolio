@@ -6,7 +6,7 @@
 @import './components/About';
 @import './components/Footer';
 @import './components/Skills';
-@import './components/FrontendSkills';
+@import './components/SkillsBox';
 @import './components/Projects';
 @import './components/projects/Project';
 @import './components/Contact';
@@ -18,12 +18,13 @@
     box-sizing: border-box;
 }
 body {
-    min-width: 290px;
+    min-width: 320px;
     background-color: $color-soft;
     font-family: $font-main;
 }
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
 }
 .letter-primary {
     color: $color-primary;
