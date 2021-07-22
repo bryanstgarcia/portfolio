@@ -10,28 +10,28 @@ import REST_API from "./../../img/rest-api-logo.png";
 export const BackendSkills = () => {
 	return (
 		<div className="skills-riel">
-			<div className="skills-riel__title">
-				<h3>{` < BACKEND  / >`}</h3>
+			<div className="skills-riel__title" id="backend">
+				<h3>{`BACKEND`}</h3>
 			</div>
 			<div className="riel">
 				<div className="skills-riel__component">
-					<div className="skills-riel__component--img moved" data-title="HTML 5">
+					<div className="skills-riel__component--img moved" data-title="Python" id="python">
 						<img src={PYTHON} alt="Python" title="Python" className="component--img" />
 						<h5>Python</h5>
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
+					<div className="skills-riel__component--img" data-title="Flask" id="flask">
 						<img src={FLASK} alt="Flask" title="Flask" className="component--img" />
 						<h5>Flask</h5>
 					</div>
-					<div className="skills-riel__component--img img-bigger" data-title="HTML 5">
+					<div className="skills-riel__component--img img-bigger" data-title="sql" id="sql">
 						<img src={SQL} alt="SQL" title="Structured Query Language" className="component--img" />
 						<h5>SQL</h5>
 					</div>
-					<div className="skills-riel__component--img img-bigger" data-title="HTML 5">
+					<div className="skills-riel__component--img img-bigger" data-title="sql-alchemy" id="alchemy">
 						<img src={SQL_ALCHEMY} alt="SQL Alchemy" title="SQL ALchemy" className="component--img" />
 						<h5>SQL Alchemy</h5>
 					</div>
-					<div className="skills-riel__component--img img-bigger" data-title="HTML 5">
+					<div className="skills-riel__component--img img-bigger" data-title="npm" id="npm">
 						<img
 							src={NPM}
 							alt="Node Package Manager"
@@ -40,7 +40,7 @@ export const BackendSkills = () => {
 						/>
 						<h5>NPM</h5>
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
+					<div className="skills-riel__component--img" data-title="postgres" id="postgres">
 						<img
 							src={POSTGRESQL}
 							alt="PostgreSQL"
@@ -49,10 +49,11 @@ export const BackendSkills = () => {
 						/>
 						<h5>PostgreSQL</h5>
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
+					<div className="skills-riel__component--img" data-title="rest-api" id="api">
 						<img src={REST_API} alt="REST API" title="REST API" className="component--img" />
 						<h5>REST:API</h5>
 					</div>
+					<div className="skills-riel__component--img" id="empty" />
 				</div>
 			</div>
 		</div>

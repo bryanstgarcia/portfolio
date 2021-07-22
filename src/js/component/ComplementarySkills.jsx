@@ -10,33 +10,24 @@ import SCRUM from "./../../img/scrum-logo.png";
 export const ComplementarySkills = () => {
 	return (
 		<div className="skills-riel">
-			<div className="skills-riel__title">
-				<h3>{` < COMPLEMENTARIAS  / >`}</h3>
+			<div className="skills-riel__title" id="complementary">
+				<h3>{`COMPLEMENTARIAS`}</h3>
 			</div>
 			<div className="riel">
 				<div className="skills-riel__component">
-					<div className="skills-riel__component--img moved" data-title="HTML 5">
+					<div className="skills-riel__component--img moved" data-title="Git" id="git">
 						<img src={GIT} alt="Git logo" title="Git" className="component--img" />
-						<h5>GIT</h5>
+						<h5>Git</h5>
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
+					<div className="skills-riel__component--img" data-title="Github" id="github">
 						<img src={GITHUB} alt="Github logo" title="Github" className="component--img" />
 						<h5>GitHub</h5>
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
+					<div className="skills-riel__component--img" data-title="Figma" id="figma">
 						<img src={FIGMA} alt="Figma logo" title="Figma" className="component--img" />
 						<h5>Figma</h5>
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
-						<img
-							src={AI}
-							alt="Adobe Illustrator logo"
-							title="Adobe Illustrator"
-							className="component--img"
-						/>
-						<h5>Adobe Illustrator</h5>
-					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
+					<div className="skills-riel__component--img" data-title="Vs-code" id="vs">
 						<img
 							src={VSCODE}
 							alt="Visual Studio Code"
@@ -45,14 +36,24 @@ export const ComplementarySkills = () => {
 						/>
 						<h5>VS Code</h5>
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
+					<div className="skills-riel__component--img" data-title="AI" id="ai">
+						<img
+							src={AI}
+							alt="Adobe Illustrator logo"
+							title="Adobe Illustrator"
+							className="component--img"
+						/>
+						<h5>Adobe Illustrator</h5>
+					</div>
+					<div className="skills-riel__component--img" data-title="Postman" id="postman">
 						<img src={POSTMAN} alt="Postman logo" title="Postman" className="component--img" />
 						<h5>Postman</h5>
 					</div>
-					<div className="skills-riel__component--img" data-title="HTML 5">
+					<div className="skills-riel__component--img" data-title="SCRUM" id="scrum">
 						<img src={SCRUM} alt="SCRUM logo" title="SCRUM" className="component--img" />
 						<h5>SCRUM</h5>
 					</div>
+					<div className="skills-riel__component--img" id="empty2" />
 				</div>
 			</div>
 		</div>
