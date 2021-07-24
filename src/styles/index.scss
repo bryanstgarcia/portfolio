@@ -35,3 +35,7 @@ html {
 .letter-soft {
     color: $color-soft;
 }
+a:hover, a:active, a:link {
+    text-decoration: none;
+    color: $color-soft;
+}
