@@ -29,17 +29,14 @@
         border-radius: $border-l;
     }
 }
-
-
-
 .technologies__img {
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    img {
-        margin-right: 1rem;
-        width: 1.5rem;
-    }
+}
+.technologies__img--component {
+    margin-right: 1rem;
+    width: 1.5rem;
 }
 .project__buttons {
     display: flex;
