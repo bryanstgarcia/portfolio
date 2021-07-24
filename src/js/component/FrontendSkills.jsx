@@ -1,12 +1,12 @@
 import React from "react";
-import FLUX from "./../../img/flux-logo.png";
-import WEBPACK from "./../../img/webpack-logo.png";
-import { Html } from "./svg/_Html.jsx";
-import { Css } from "./svg/_Css.jsx";
-import { Sass } from "./svg/_Sass.jsx";
-import { Bootstrap } from "./svg/_Bootstrap.jsx";
-import { JavaScript } from "./svg/_JavaScript.jsx";
-import { ReactLog } from "./svg/_ReactLog.jsx";
+import { Html } from "./svg/Html.jsx";
+import { Css } from "./svg/Css.jsx";
+import { Sass } from "./svg/Sass.jsx";
+import { Bootstrap } from "./svg/Bootstrap.jsx";
+import { JavaScript } from "./svg/JavaScript.jsx";
+import { ReactLog } from "./svg/ReactLog.jsx";
+import { Flux } from "./svg/Flux.jsx";
+import { Webpack } from "./svg/Webpack.jsx";
 
 export const FrontendSkills = () => {
 	return (
@@ -52,11 +52,15 @@ export const FrontendSkills = () => {
 					<h5>React Js</h5>
 				</div>
 				<div className="skills-riel__component--img img-bigger" data-title="Flux" id="flux">
-					<img src={FLUX} alt="Flux" title="Flux" className="component--img" />
+					<div className="component--img">
+						<Flux />
+					</div>
 					<h5>Flux</h5>
 				</div>
 				<div className="skills-riel__component--img" data-title="Webpack" id="webpack">
-					<img src={WEBPACK} alt="Webpack" title="Webpack" className="component--img" />
+					<div className="component--img">
+						<Webpack />
+					</div>
 					<h5>Webpack</h5>
 				</div>
 			</div>

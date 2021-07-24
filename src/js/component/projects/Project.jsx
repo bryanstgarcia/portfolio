@@ -1,6 +1,6 @@
 import React from "react";
 import Prueba from "./../../../img/laptop.jpg";
-import Javascript from "./../../../img/javascript-logo.png";
+import { JavaScript } from "./../svg/JavaScript.jsx";
 
 export const Project = () => {
 	return (
@@ -24,9 +24,15 @@ export const Project = () => {
 							<h5>Tecnologies</h5>
 						</div>
 						<div className="technologies__img">
-							<img src={Javascript} alt="" />
-							<img src={Javascript} alt="" />
-							<img src={Javascript} alt="" />
+							<div className="technologies__img--component">
+								<JavaScript />
+							</div>
+							<div className="technologies__img--component">
+								<JavaScript />
+							</div>
+							<div className="technologies__img--component">
+								<JavaScript />
+							</div>
 						</div>
 					</div>
 				</div>

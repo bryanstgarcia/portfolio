@@ -1,8 +1,8 @@
 import React from "react";
 import Resolution from "./../../img/thinking.png";
-import Responsability from "./../../img/responsibility.png";
-import Decisions from "./../../img/decisions.png";
 import TeamWork from "./../../img/teamwork.png";
+import { Responsability } from "./svg/Responsability.jsx";
+import { Decisions } from "./svg/Decisions.jsx";
 
 export const SoftSkills = () => {
 	return (
@@ -25,16 +25,15 @@ export const SoftSkills = () => {
 						<h5>Resolución de problemas</h5>
 					</div>
 					<div className="skills-riel__component--img large" data-title="Responsability" id="responsability">
-						<img
-							src={Responsability}
-							alt="Responsabilidad"
-							title="Responsabilidad"
-							className="component--img"
-						/>
+						<div className="component--img">
+							<Responsability />
+						</div>
 						<h5>Responsabilidad</h5>
 					</div>
 					<div className="skills-riel__component--img large" data-title="Toma de decisiones" id="decisions">
-						<img src={Decisions} alt="Toma de decisiones" title="Decisiones" className="component--img" />
+						<div className="component--img">
+							<Decisions />
+						</div>
 						<h5>Toma de decisiones</h5>
 					</div>
 					<div className="skills-riel__component--img large" data-title="Trabajo en equipo" id="team">
