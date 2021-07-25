@@ -8,7 +8,7 @@ export const Navbar = () => {
 	return (
 		<nav className="navigation">
 			<Link to="/" href="#home">
-				<span className="navigation__logo">BG</span>
+				<span className="navigation__logo">BG.</span>
 			</Link>
 
 			<div className="navigation__menu">
