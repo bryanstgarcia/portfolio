@@ -1,1 +1,39 @@
 @import './../Variables';
+
+.resume-box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 5.5rem 0;
+
+}
+.resume-box__info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 30vh;
+    a {
+        text-align: center;
+        color: $color-soft;
+        background-color: $color-complement;
+        width: 20rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: $border-m;
+
+        &:hover {
+            background-color: $color-primary;
+        }
+    }
+}
+.resume-box__frame {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 70vw;
+
+}
