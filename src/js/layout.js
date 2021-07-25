@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { SinglePageContainer } from "./views/SinglePageContainer.jsx";
-import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 import { Resume } from "./views/Resume.jsx";
 
@@ -27,9 +26,6 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/resume">
 							<Resume />
-						</Route>
-						<Route exact path="/single/:theid">
-							<Single />
 						</Route>
 						<Route>
 							<h1>Not found!</h1>
