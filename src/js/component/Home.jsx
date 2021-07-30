@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import LinkedIn from "./../../img/002-linkedin.png";
 import Github from "./../../img/001-github.png";
-import Perfil from "./../../img/perfil.jpg";
+import Perfil from "./../../img/bryan-verde.png";
 import Arrow from "./../../img/arrow-down.png";
+import Blob from "./../../img/background2.png";
 
 export const Home = () => {
 	return (
@@ -11,6 +12,9 @@ export const Home = () => {
 			<div className="welcome__img">
 				<div className="welcome__img--box">
 					<img src={Perfil} alt="Imagen de perfil" />
+				</div>
+				<div className="welcome__img--shape">
+					<img src={Blob} />
 				</div>
 			</div>
 			<div className="welcome-2">
