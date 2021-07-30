@@ -36,7 +36,18 @@ module.exports = {
         }, //for images
         { 
           test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/, use: ['file-loader'] 
-        } //for fonts
+        }, //for fonts
+        {
+          test: /\.(pdf)$/,
+          use: [
+            {
+              loader: 'file-loader',
+              options: {
+                name: '[name].[ext]'
+              }
+            }
+          ]
+        }
     ]
   },
   resolve: {
