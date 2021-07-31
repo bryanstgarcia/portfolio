@@ -27,11 +27,14 @@
 .about__info {
     font-weight: $font-regular;
     font-size: $size-medium;
-    line-height: $size-large;
-    letter-spacing: 0.08em;
     color: $color-soft;
     width: 80%;
     height: auto;
+
+    p {
+        line-height: 1.45rem;
+        letter-spacing: 0.099em;
+    }
 }
 .about__info--see-more {
     cursor: pointer;
