@@ -51,7 +51,7 @@ export const BackendSkills = () => {
 					</div>
 					<div className="skills-riel__component--img" data-title="rest-api" id="api">
 						<div className="component--img">
-							<RestApi />
+							<RestApi color="FFFFFF" />
 						</div>
 						<h5>REST:API</h5>
 					</div>

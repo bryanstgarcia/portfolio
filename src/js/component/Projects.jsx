@@ -1,6 +1,8 @@
 import React from "react";
 import { Project } from "./projects/Project.jsx";
 import { Silicoding } from "./projects/Silicoding.jsx";
+import { ToDo } from "./projects/ToDo.jsx";
+import { Calculator } from "./projects/Calculator.jsx";
 
 export const Projects = () => {
 	return (
@@ -13,11 +15,8 @@ export const Projects = () => {
 			</div>
 			<div className="projects__components">
 				<Silicoding />
-				<Project />
-				<Project />
-				<Project />
-				<Project />
-				<Project />
+				<ToDo />
+				<Calculator />
 			</div>
 		</div>
 	);
