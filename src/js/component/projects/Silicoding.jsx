@@ -1,5 +1,4 @@
 import React from "react";
-import Prueba from "./../../../img/laptop.jpg";
 import { Html } from "./../svg/Html.jsx";
 import { Css } from "./../svg/Css.jsx";
 import Picture from "./../../../img/silicoding.png";
