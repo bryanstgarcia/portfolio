@@ -26,7 +26,7 @@ export const ToDo = () => {
 					</div>
 					<div className="project__info--technologies">
 						<div className="technologies__title">
-							<h5>Tecnologies</h5>
+							<h5>Tecnologías</h5>
 						</div>
 						<div className="technologies__img">
 							<div className="technologies__img--component">
@@ -52,10 +52,20 @@ export const ToDo = () => {
 				</div>
 			</div>
 			<div className="project__buttons">
-				<a href="#" title="Repositorio de github" target="_blank" className="project__buttons--btn btn-black">
+				<a
+					href="#"
+					title="Repositorio de github"
+					target="_blank"
+					rel="noreferrer"
+					className="project__buttons--btn btn-black">
 					Repositorio
 				</a>
-				<a href="#" title="Abrir sitio web" target="_blank" className="project__buttons--btn btn-blue">
+				<a
+					href="#"
+					title="Abrir sitio web"
+					target="_blank"
+					rel="noreferrer"
+					className="project__buttons--btn btn-blue">
 					Sitio web
 				</a>
 			</div>
