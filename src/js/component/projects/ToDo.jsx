@@ -1,5 +1,5 @@
 import React from "react";
-import TodoImg from "./../../../img/todo.PNG";
+import TodoImg from "./../../../img/todo.png";
 import { Html } from "../svg/Html.jsx";
 import { Css } from "../svg/Css.jsx";
 import { Sass } from "../svg/Sass.jsx";
