@@ -12,7 +12,7 @@ export const About = () => {
 			</div>
 			<div className="about__info">
 				<p className="">
-					<span className="letter-strong">{`Mi nombre es Bryan García y soy desarrollador web fullstack.`}</span>
+					<span className="letter-strong">{`Mi nombre es Bryan García y soy desarrollador web frontend.`}</span>
 					{` Me considero una persona observadora, detallista y me gusta reflejar eso a través del código. Lo
 					mucho que la tecnología puede impactar la vida de las personas es algo de lo que soy consciente y es
 					por eso que me apasiona el desarrollo de software.`}

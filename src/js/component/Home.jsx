@@ -22,7 +22,7 @@ export const Home = () => {
 					<p className="welcome__text--title letter-primary">¡Bienvenido!</p>
 					<p className="welcome__text--title">mi nombre es Bryan</p>
 					<p className="welcome__text--subtitle">
-						Y soy desarrollador web fullstack
+						Y soy desarrollador web frontend
 						<span className="letter-primary">.</span>
 					</p>
 				</div>
