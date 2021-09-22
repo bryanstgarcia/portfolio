@@ -1,5 +1,5 @@
 import React from "react";
-import CalculatorImg from "./../../../img/calculator.png";
+import CalculatorImg from "./../../../img/calculator.PNG";
 import { JavaScript } from "./../svg/JavaScript.jsx";
 import { Html } from "./../svg/Html.jsx";
 import { Css } from "../svg/Css.jsx";
