@@ -19,7 +19,7 @@ export const Home = () => {
 			</div>
 			<div className="welcome-2">
 				<div className="welcome__text">
-					<p className="welcome__text--title letter-primary">¡Bienvenido!</p>
+					<h1 className="welcome__text--title letter-primary">¡Bienvenido!</h1>
 					<p className="welcome__text--title">mi nombre es Bryan</p>
 					<p className="welcome__text--subtitle">
 						Y soy desarrollador web frontend

@@ -60,7 +60,7 @@
     text-align: left;
     margin: 0 0 0.5rem 0;
     padding: 0;
-    font-size: $size-xxlarge + 0.5rem;
+    font-size: $size-xxlarge + 0.8rem;
     font-weight: $font-bold;
     line-height: 2.825rem;
 }
@@ -69,7 +69,7 @@
     margin: 1rem 0;
     color: $color-medium;
     font-weight: $font-medium;
-    font-size: $size-large;
+    font-size: $size-large + 0.1rem;
     line-height: 1.4375rem;
     letter-spacing: 0.04em;
 }
@@ -133,6 +133,12 @@
     .welcome__text {
         justify-content: center;
         align-items: flex-start;
+    }
+    .welcome__text--title {
+        font-size: $size-xxlarge + 1rem;
+    }
+    .welcome__text--subtitle {
+        font-size: $size-large + 0.3rem;
     }
     .welcome__buttons {
         justify-content: flex-start;
