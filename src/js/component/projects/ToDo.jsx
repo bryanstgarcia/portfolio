@@ -6,6 +6,7 @@ import { Sass } from "../svg/Sass.jsx";
 import { ReactLog } from "../svg/ReactLog.jsx";
 import { Webpack } from "../svg/Webpack.jsx";
 import { RestApi } from "../svg/RestApi.jsx";
+import { Postman } from "../svg/Postman.jsx";
 
 export const ToDo = () => {
 	return (
@@ -26,7 +27,7 @@ export const ToDo = () => {
 					</div>
 					<div className="project__info--technologies">
 						<div className="technologies__title">
-							<h5>Tecnologías</h5>
+							<h5>Tecnologías y herramientas</h5>
 						</div>
 						<div className="technologies__img">
 							<div className="technologies__img--component">
