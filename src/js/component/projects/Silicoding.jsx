@@ -2,6 +2,7 @@ import React from "react";
 import { Html } from "./../svg/Html.jsx";
 import { Css } from "./../svg/Css.jsx";
 import Picture from "./../../../img/silicoding.png";
+import { Figma } from "../svg/Figma.jsx";
 
 export const Silicoding = () => {
 	return (
@@ -22,7 +23,7 @@ export const Silicoding = () => {
 					</div>
 					<div className="project__info--technologies">
 						<div className="technologies__title">
-							<h5>Tecnologías</h5>
+							<h5>Tecnologías y Herramientas</h5>
 						</div>
 						<div className="technologies__img">
 							<div className="technologies__img--component">
@@ -30,6 +31,9 @@ export const Silicoding = () => {
 							</div>
 							<div className="technologies__img--component">
 								<Css />
+							</div>
+							<div className="technologies__img--component tall">
+								<Figma />
 							</div>
 						</div>
 					</div>
