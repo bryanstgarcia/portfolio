@@ -5,6 +5,8 @@ import { Html } from "../svg/Html.jsx";
 import { Python } from "../svg/Python.jsx";
 import { Sass } from "../svg/Sass.jsx";
 import { RestApi } from "../svg/RestApi.jsx";
+import { Figma } from "../svg/Figma.jsx";
+import { Postgresql } from "../svg/Postgresql.jsx";
 
 export const LaCuadra = () => {
 	return (
@@ -42,6 +44,12 @@ export const LaCuadra = () => {
 							</div>
 							<div className="technologies__img--component">
 								<RestApi color="000000" />
+							</div>
+							<div className="technologies__img--component">
+								<Postgresql />
+							</div>
+							<div className="technologies__img--component tall">
+								<Figma />
 							</div>
 						</div>
 					</div>
