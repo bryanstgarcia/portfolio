@@ -1,5 +1,5 @@
 import React from "react";
-import LaCuadraPic from "./../../../img/lacuadra.png";
+import LaCuadraPic from "./../../../img/lacuadra.jpg";
 import { ReactLog } from "../svg/ReactLog.jsx";
 import { Html } from "../svg/Html.jsx";
 import { Python } from "../svg/Python.jsx";
