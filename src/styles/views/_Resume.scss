@@ -33,7 +33,9 @@
 .resume-box__frame {
     display: flex;
     justify-content: center;
-    height: 70%;
-    width: 70vw;
+    min-height: 35rem;
+    height: 50vh;
+    min-width: 90vw;
+    max-width: 45rem;
 
 }

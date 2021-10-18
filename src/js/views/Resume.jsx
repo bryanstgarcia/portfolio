@@ -23,7 +23,7 @@ export const Resume = () => {
 					src={`https://docs.google.com/viewer?srcid=${cvLink.frontend.october.code}&pid=explorer&efh=false&a=v&chrome=false&embedded=true`}
 					className="resume-box__frame--doc"
 					width="80%"
-					height="680px"
+					height="auto"
 				/>
 			</div>
 			<div className="resume-box__info">
