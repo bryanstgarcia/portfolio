@@ -39,7 +39,7 @@ export const Home = () => {
 						<img src={LinkedIn} alt="LinkedIn" width="30" />
 					</a>
 					<a
-						href="https://github.com/bryanstg"
+						href="https://github.com/bryanstgarcia"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="welcome__buttons--github">
