@@ -21,6 +21,11 @@
     font-size: $size-xxlarge;
     cursor: pointer;
 }
+.navigation__last-update {
+    color: $color-soft;
+    font-family: $font-second;
+    font-size: $size-medium;
+}
 .menu__close {
     display: none;
 }

@@ -10,7 +10,7 @@ export const Navbar = () => {
 			<Link to="/" href="#home">
 				<span className="navigation__logo">BG.</span>
 			</Link>
-
+			<span className="navigation__last-update">Última actualización: hace 3 años</span>
 			<div className="navigation__menu">
 				<Hamburguer />
 				<ul className={store.hamburguer ? `menu__open menu__list` : `menu__list menu__close`}>
